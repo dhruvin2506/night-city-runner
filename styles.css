@@ -1,0 +1,22 @@
+canvas {
+    border: 2px solid black;
+    display: block;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, 
+        #0a0a2e 0%,    /* Dark night sky */
+        #1a237e 40%,   /* Deep blue */
+        #303f9f 70%,   /* Lighter blue */
+        #3949ab 100%   /* Bottom gradient */
+    );
+}
+.game-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.score {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #fff;
+    text-shadow: 0 0 5px #00f;
+    font-weight: bold;
+}
