@@ -140,6 +140,27 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [ ] Social sharing features
 
 ## 📞 Contact
+Playing Online
+Visit: https://github.com/dhruv1n2506/night-city-runner
+Desktop App Installation
+Prerequisites
+
+Node.js
+npm
+
+Building Desktop App
+bashCopy# Install dependencies
+npm install electron electron-builder --save-dev
+npm install electron-store
+
+# Add build scripts to package.json
+npm run build
+
+# Run locally
+npm start
+
+# Build distributables
+npm run build
 
 - Your Name - Dhruvin Patel
 - Project Link: [https://github.com/yourusername/night-city-runner](https://github.com/yourusername/night-city-runner)
