@@ -5,10 +5,32 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="game-container">
+    <div id="menu" class="menu-container">
+        <h1>Night City Runner</h1>
+        <button class="menu-button" onclick="startGame()">Start Game</button>
+        <button class="menu-button" onclick="toggleSettings()">Settings</button>
+        
+        <div id="settings" class="settings-container">
+            <div class="color-picker">
+                <label>Background Color:</label>
+                <input type="color" id="bgColor" value="#0a0a2e" onchange="updateColors()">
+            </div>
+            <div class="color-picker">
+                <label>Ball Color:</label>
+                <input type="color" id="ballColor" value="#00ffff" onchange="updateColors()">
+            </div>
+            <div class="color-picker">
+                <label>Building Color:</label>
+                <input type="color" id="buildingColor" value="#1a237e" onchange="updateColors()">
+            </div>
+        </div>
+    </div>
+
+    <div id="gameContainer" class="game-container">
         <div class="score">Score: <span id="score">0</span></div>
         <canvas id="gameCanvas" width="480" height="320"></canvas>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
