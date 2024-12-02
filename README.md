@@ -141,11 +141,13 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Playing Online
 Visit: https://github.com/dhruv1n2506/night-city-runner
+
 Desktop App Installation
 Prerequisites
 
 
 Node.js
+
 npm
 
 
