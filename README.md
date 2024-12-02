@@ -151,9 +151,11 @@ npm
 
 Building Desktop App
 
-bashCopy# Install dependencies
+bashCopy# 
+Install dependencies
 
 npm install electron electron-builder --save-dev
+
 npm install electron-store
 
 # Add build scripts to package.json
